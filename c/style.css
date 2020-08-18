@@ -1,0 +1,455 @@
+/*------------------------------------ESTILOS GLOBAIS----------------------------------------------------*/
+
+/*TAGS and OBJECTS--------------------------------------------------------------------------------------*/
+@font-face
+{
+     font-family: 'roboto-light';
+     src: url('Roboto/Roboto-Light.ttf') format('truetype');
+     font-family: 'poiret-one';
+     src: url('Poiret_One/PoiretOne-Regular.ttf') format('truetype');
+}
+
+body
+{
+	background: #277CB5;
+	font-family:"roboto-light", sans-serif;
+	font-size: 16px;
+	color:#36486B;
+	display: block;
+}
+
+fieldset
+{
+	border:none;
+}
+
+label
+{
+	text-align: center;
+	display:block;
+	padding: 3px;
+}
+
+input
+{
+	border-radius: 3px;
+	border:none;
+	border-left: 7px solid #FF9C05;
+	height: 35px;
+	text-align: center;
+	width: 60%;
+}
+
+input[type=text]
+{
+	font-size-adjust: 14px;
+	color:#36486B;
+}	
+
+button
+{
+	font-size: 14px;
+	padding: 6px 30px;
+	border-radius: 3px;
+	border:none;
+	border-left: 7px solid #FF9C01;
+	display: inline-block;
+	background: #083054;
+	color:white;
+}
+
+select
+{
+	border-radius: 3px;
+	border:none;
+	border-left: 7px solid #FF9C05;
+	height: 35px;
+	text-align: center;
+	width: 60%;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+}
+
+/*CLASSES---------------------------------------------------------------------------------------------*/
+.btn-principal
+{
+	display: block;
+	padding: 1px;
+	margin: auto;
+	margin-top: 250px;
+	width: 300px;
+	height: 200px;
+	
+}
+
+.btn-principal p
+{
+	display: inline-flex;
+	flex-direction: row;
+	height: 80px;
+	width: 300px;
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #083054;
+	border-left: 15px solid #FF9C01;
+	border-radius: 8px;
+	position:relative;
+	float:center;
+}
+
+.btn-principal a
+{
+	font-family:"roboto-light", sans-serif;
+	font-size: 26px;
+	text-decoration: none;
+	color:white;
+	padding-top: 18px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	padding-right: 7px;
+	width: auto;
+
+	/*margin-top: 7px;*/
+}
+
+.main
+{
+	display: flex-block;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.titulo
+{
+
+	font-size: 24px;
+	background: #083054;
+	padding:3px;
+	display: flex-block;
+	margin: auto;
+	align-items: center;
+	width: 600px;
+	height: 100px;	
+	text-align: center;
+	color: white;
+	
+}
+
+.mensagem
+{
+	font-family: "poiret-one", sans-serif; 
+	font-size: 16px;
+	padding:0px 3px 3px 3px;
+	margin:0px;
+	color: white;
+	text-align: right;
+
+}
+
+.container
+{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.container-rodape
+{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	justify-content: right;
+	align-items: right;
+	padding-right: 25px;
+}
+
+
+/*------------------------------------------------TMPL_LOGIN------------------------------------------*/
+
+.tmpl-login
+{
+	font-size: 16px;
+	background: #C3D8DB;
+	padding:3px 3px 3px 3px;
+	position: relative;
+	width: 600px;
+	margin:auto;
+	top:20%;
+	text-align: center;
+}
+
+.tmpl-login input
+{
+	width: 40%;
+}
+
+/*------------------------------------------------TMPL_SISTEMA------------------------------------------*/
+
+.tmpl-sistema
+{
+	font-size: 16px;
+	background: #C3D8DB;
+	padding:1px 3px 3px 1px;
+	position: relative;
+	width: 600px;
+	top:20%;
+	margin:auto;
+	text-align: center;
+	
+}
+
+.tmpl-sistema label
+{
+	text-align: left;
+	display:block;
+	padding: 1px;
+	margin: 2px;
+}
+
+.tmpl-sistema input[type="text"]
+{
+	display:block;
+	padding: 1px;
+	margin: 1px;
+	width: 95%;
+}
+
+.tmpl-sistema input[type="date"]
+{
+	display:block;
+	padding: 1px;
+	margin: 1px;
+	width: 95%;
+}
+
+.tmpl-sistema button[type="submit"]
+{
+	display:block;
+	padding: 1px;
+	margin-left: 35px;
+	height: 40px;
+	width: 200px;
+	font-family:"roboto-light", sans-serif;
+	font-size: 16px;
+	color:white;
+	margin-top: 10px;
+	background-color: #083054;
+	
+}
+
+.tmpl-sistema textarea
+{
+	display: block;
+	border-radius: 3px;
+	border:none;
+	border-left: 7px solid #FF9C05;
+	height: 90px;
+	text-align: left;
+	width: 95%;
+	padding:1px;
+	margin: 2px;
+}
+
+.subtitulos
+{
+	font-size: 20px;
+	border:1px solid #8d9db6;
+	border-radius: 8px;
+	padding:1px 1px 1px 1px;
+	margin: 0px;
+}
+
+.subtitulos p
+{
+	margin:2px;
+	padding: 1px;
+
+}
+
+.form
+{
+	display:block;
+	margin:0px;
+	padding: 0px;
+	
+}
+
+.sairnovo
+{
+	display: inline-flex;
+	flex-direction: row;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	padding: 1px;
+	margin-left: 0px;
+	width: 600px;
+	height: 100px;
+}
+
+.sairnovo p{
+
+	height: 30px;
+	width: 350px;
+	margin: 2px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #083054;
+	border-left: 7px solid #FF9C01;
+}
+
+.sairnovo a
+{
+	font-family:"roboto-light", sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	color:white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 2px;
+	padding-right: 2px;
+	width: 300px;
+	/*margin-top: 7px;*/
+}
+/*----------------------FORMULARIO CASO------------------------------*/
+.frmCaso p
+{
+	font-family: "poiret-one", sans-serif; 
+	font-size: 16px;
+	text-align: right;
+	width:95%;
+	margin:0px;
+	padding: 3px;
+}
+
+.content-formCaso
+{
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+.par-formCaso
+{
+	display:inline-block;
+	width: 50%;
+	margin:2px;
+	padding: 10px;
+}
+
+
+input[type=date]
+{
+	font-size-adjust: 14px;
+	color:#36486B;
+}
+/*------------------------FORMULÁRIO ALVO--------------------------------------*/
+.content-formAlvo
+{
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+.par-formAlvo
+{
+	display:inline-block;
+	width: 50%;
+	margin:2px;
+	padding: 10px;
+	
+}
+
+/*------------------------FORMULÁRIO DISPOSITIVO--------------------------------------*/
+.content-formDispositivo
+{
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+.par-formDispositivo
+{
+	display:inline-block;
+	width: 50%;
+	margin:2px;
+	padding: 10px;
+	
+}
+
+.frmDispositivo p
+{
+	font-family: "poiret-one", sans-serif; 
+	font-size: 16px;
+	text-align: right;
+	width:95%;
+	margin:0px;
+	padding: 3px;
+}
+
+/*------------------------FORMULÁRIO HISTÓRICO--------------------------------------*/
+.content-formHistorico
+{
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+.frmHistorico p
+{
+	font-family: "poiret-one", sans-serif; 
+	font-size: 16px;
+	text-align: right;
+	width:95%;
+	margin:0px;
+	padding: 3px;
+}
+
+.par-formHistorico
+{
+	display:inline-block;
+	width: 50%;
+	margin:2px;
+	margin-bottom: 2px;
+	padding: 10px;
+
+}
+
+
+/*-----------------------OCULTA FORMULÁRIOS------------------------------------*/
+
+/*#sec_caso
+{
+	display: block;
+	visibility: visible;
+	height: auto;
+}
+
+
+#sec_alvo
+{
+	display: blck;
+	visibility: visible;
+	height: auto;
+}
+
+#sec_dispositivo
+{
+	display: block;
+	visibility: visible;
+}
+
+#sec_historico
+{
+	display: block;
+	visibility: visible;
+	height: auto;
+}
